@@ -16,6 +16,12 @@ quotes.push({
 });
 
 quotes.push({
+	quote: "There is some good in this world, and it's worth fighting for.",
+	source: "J.R.R. Tolkien",
+	citation: "The Two Towers"
+});
+
+quotes.push({
 	quote: "You can do anything, but not everything.",
 	source: "David Allen",
 	citation: "Making It All Work",
