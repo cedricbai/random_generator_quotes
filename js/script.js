@@ -1,7 +1,7 @@
 // event listener to respond to "Show another quote" button clicks
 // when user clicks anywhere on the button, the "printQuote" function is called
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
-var quotes = [];
+var quotes = []; //create an array for storing quotes
 quotes.push({
 	quote: "Those who dare to fail miserably can achieve greatly.",
 	source: "John F. Kennedy"
@@ -28,6 +28,9 @@ quotes.push({
 	year: 2009
 });
 
+/*
+	create a random number for selecting quotes.
+*/
 function getRandomQuote() {
 	var the_size = quotes.length;
 	var the_random =Math.floor(Math.random() * the_size);
